@@ -17,7 +17,9 @@ Open Android Studio and create a new Android app via File → New → New Projec
 
 <img src="/assets/new-android-studio-project.png" class="border" width="600" alt="New Android Studio project" />
 
-Then select API 28 or higher for the minimum SDK and Kotlin DSL for the build configuration language.
+Then select API 32 or higher for the minimum SDK and Kotlin DSL for the build configuration language and select "Pixel 9 Pro API 32" for the device. 
+
+NOTE: If you use API 28 to 31 you will have to remark out the `allow_browser versions: :modern` in the `ApplicationController`.
 
 <img src="/assets/android-studio-project-options.png" class="border" width="600" alt="Configure Android Studio project" />
 
